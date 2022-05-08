@@ -14,9 +14,12 @@ Paperclick is based on the single core ESP32-C3 processor which is used in the P
 - WS2812 user LED
 - LiPo battery charger with indicator LED
 
+The [Youtube video (todo)](https://www.youtube.com/watch?v=t-50w3RsUlg) shows the assembly and soldering process, explains how the battery monitoring works and shows this little thing in action.
+
+
 ## Battery monitoring
 
-<img src="docs/paperclick_batterymonitoring" width="500px"></a>
+<img src="docs/paperclick_batterymonitoring.png" width="500px"></a>
 
 Till now I have estimated the battery capacity with a simple voltage divider between VBAT and GND and an analog input of the MCU to read the voltage. This will draw current all the time, even if the device is not activated.
 
@@ -29,5 +32,12 @@ In order to save these few µA of current, I searched for other solution which l
 
 After some test with a Picoclick and my scope, that solution seems to be a very cool and interesting one. Paperclick is the first board where I tried this circuit, that's why there are so many measurement test points.
 
+## Power consumption
+
+<img src="docs/paperclick_power.png" width="500px"></a>
+
+- 82mA in average while WiFi connecting/transmitting and updating the ePaper display
+- 38mA in average with WiFi disabled and updating the ePaper display
+- 140nA in average in idle state
 
 ## Assembled devive
