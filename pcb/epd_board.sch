@@ -2892,6 +2892,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="426.72" y1="106.68" x2="426.72" y2="60.96" width="0.508" layer="97" style="longdash"/>
 <wire x1="510.54" y1="106.68" x2="510.54" y2="60.96" width="0.508" layer="97" style="longdash"/>
 <text x="429.26" y="101.6" size="2.54" layer="97" font="vector" ratio="20">USER BUTTON</text>
+<text x="373.38" y="180.34" size="1.27" layer="98">250k</text>
 </plain>
 <instances>
 <instance part="+3V2" gate="G$1" x="325.12" y="154.94" smashed="yes">
