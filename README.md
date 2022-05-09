@@ -1,6 +1,6 @@
 # Paperclick
 
-<img src="docs/paperclick_twodev.png" width="500px"></a>
+<img src="docs/paperclick_twodev.JPG" width="500px"></a>
 
 Paperclick is a simple device which combines a [Picoclick-C3T](https://github.com/makermoekoe/Picoclick-C3) with the smallest EPaper display I found in the internet: [a 1.02" 128x80 pixels EPD](https://www.waveshare.com/wiki/1.02inch_e-paper_Module). The initial task was to create a simple activity tracker which updates the EPaper display with the current date and time once the display is pressed (actually it is not the display sensing the press, it's a button behind the display). The device gets the time from an NTP server over WiFi. Additionally the device can update an online service with the date/time the Paperclick was pressed.
 
@@ -44,6 +44,6 @@ After some test with a Picoclick and my scope, that solution seems to be a very 
 
 ## Assembled devive
 
-<img src="docs/paperclick_enclosure.png" width="500px"></a>
+<img src="docs/paperclick_enclosure.JPG" width="500px"></a>
 
-<img src="docs/paperclick_wbat.png" width="500px"></a>
+<img src="docs/paperclick_wbat2.JPG" width="500px"></a>
