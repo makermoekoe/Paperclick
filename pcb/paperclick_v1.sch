@@ -2754,8 +2754,8 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <part name="+VBAT4" library="iml_elc" deviceset="+VBAT" device=""/>
 <part name="+VBAT5" library="iml_elc" deviceset="+VBAT" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C23" library="moekoe_rcl" library_urn="urn:adsk.eagle:library:34187148" deviceset="C0201" device="" package3d_urn="urn:adsk.eagle:package:34200839/2" value="tbd"/>
-<part name="C22" library="moekoe_rcl" library_urn="urn:adsk.eagle:library:34187148" deviceset="C0201" device="" package3d_urn="urn:adsk.eagle:package:34200839/2" value="tbd"/>
+<part name="C23" library="moekoe_rcl" library_urn="urn:adsk.eagle:library:34187148" deviceset="C0201" device="" package3d_urn="urn:adsk.eagle:package:34200839/2"/>
+<part name="C22" library="moekoe_rcl" library_urn="urn:adsk.eagle:library:34187148" deviceset="C0201" device="" package3d_urn="urn:adsk.eagle:package:34200839/2"/>
 <part name="L2" library="moekoe_rcl" library_urn="urn:adsk.eagle:library:34187148" deviceset="L0201" device="" package3d_urn="urn:adsk.eagle:package:34200841/2"/>
 <part name="U1" library="moekoe_ics" library_urn="urn:adsk.eagle:library:34187141" deviceset="WS4518D" device="" package3d_urn="urn:adsk.eagle:package:32881971/1"/>
 <part name="L3" library="moekoe_led" library_urn="urn:adsk.eagle:library:34188309" deviceset="LED_0402" device="" package3d_urn="urn:adsk.eagle:package:34209151/1"/>
@@ -2831,7 +2831,6 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <sheet>
 <plain>
 <text x="483.87" y="48.26" size="2.54" layer="94">Moritz König</text>
-<text x="401.32" y="269.24" size="1.27" layer="98" font="vector">exchange with APA104 or else</text>
 <wire x1="345.44" y1="218.44" x2="345.44" y2="142.24" width="0.508" layer="97" style="longdash"/>
 <wire x1="345.44" y1="142.24" x2="419.1" y2="142.24" width="0.508" layer="97" style="longdash"/>
 <wire x1="419.1" y1="142.24" x2="419.1" y2="218.44" width="0.508" layer="97" style="longdash"/>
@@ -2893,6 +2892,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX7042.pdf</description>
 <wire x1="510.54" y1="106.68" x2="510.54" y2="60.96" width="0.508" layer="97" style="longdash"/>
 <text x="429.26" y="101.6" size="2.54" layer="97" font="vector" ratio="20">USER BUTTON</text>
 <text x="373.38" y="180.34" size="1.27" layer="98">250k</text>
+<text x="342.9" y="254" size="1.27" layer="98">7.3nH</text>
+<text x="353.06" y="243.84" size="1.27" layer="98">1.8nH</text>
+<text x="353.06" y="246.38" size="1.27" layer="98">L!!</text>
+<text x="330.2" y="246.38" size="1.27" layer="98">dnm</text>
 </plain>
 <instances>
 <instance part="+3V2" gate="G$1" x="325.12" y="154.94" smashed="yes">
