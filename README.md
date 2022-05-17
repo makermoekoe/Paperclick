@@ -17,7 +17,7 @@ The latching circuit is optimized as well - it now doesn't use a GPIO of the MCU
 - WS2812 user LED
 - LiPo battery charger with indicator LED
 
-The [Youtube video (todo)](https://www.youtube.com/watch?v=t-50w3RsUlg) shows the assembly and soldering process, explains how the battery monitoring works and shows this little thing in action.
+The [Youtube video](https://www.youtube.com/watch?v=tOb_UypiWvQ) shows the assembly and soldering process, explains how the battery monitoring works and shows this little thing in action.
 
 
 ## Battery monitoring
